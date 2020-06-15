@@ -1,0 +1,16 @@
+---
+AppiumHost: 'http://localhost:4723/wd/hub'
+DesiredCapabilities:
+  DeviceName: Moto G
+  UdId: ZY223D6MH6
+  PlatformName: Android
+  PlatformVersion: '7.0'
+  AppPackage: com.supercell.clashofclans
+  AppActivity: com.supercell.titan.GameApp
+  SkipDeviceInitialization: true
+  SkipServerInstallation: true
+  NoReset: true
+
+Paths:
+  QueryImages: data/query_images
+  Visualizations: data/visualizations
